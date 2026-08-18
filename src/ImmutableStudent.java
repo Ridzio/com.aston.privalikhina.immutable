@@ -1,8 +1,7 @@
-import java.util.List;
 
 public final class ImmutableStudent {
     private final String name;
-    private final MutableAge age; // Поле с изменяемым классом внутри!
+    private final MutableAge age;
 
     public ImmutableStudent(String name, MutableAge age) {
         this.name = name;
